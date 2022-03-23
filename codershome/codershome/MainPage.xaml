@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="codershome.MainPage">
+
+    <StackLayout>
+        <Image Margin="0,10,250,0" WidthRequest="20" HeightRequest="50" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/codershome_logo2.png?w=220;ssl=1"></Image>
+        <Image WidthRequest="200" HeightRequest="300" Source="https://www.codershome.net/wp-content/uploads/2021/06/laptop-2620118_1920.jpg"></Image>
+        <Button Text="Alışverişe Başla" BackgroundColor="Turquoise"></Button>
+
+        <Image WidthRequest="200" HeightRequest="100" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2018/12/lock-free-img.png?fit=120%2C120;ssl=1"></Image>
+        <Label Text="Güvenli Alışveriş" FontSize="16" Padding="150,0,30,0" FontAttributes="Bold" />
+
+        <Image Margin="0,30,0,0" WidthRequest="200" HeightRequest="100" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/kargo.png?fit=225%2C225;ssl=1"></Image>
+        <Label Text="Hızlı Teslimat" FontSize="16" Padding="150,0,30,0" FontAttributes="Bold" />
+
+        <Image Margin="0,0,0,0" WidthRequest="200" HeightRequest="100" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/kargo.png?fit=225%2C225;ssl=1"></Image>
+        <Label Text="Hızlı Teslimat" FontSize="16" Padding="150,0,30,0" FontAttributes="Bold" />
+
+        <Label FontSize="16" Padding="30,24,30,0">
+            
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        
+                        
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
