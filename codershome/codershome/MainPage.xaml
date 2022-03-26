@@ -1,33 +1,804 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+    
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="codershome.MainPage">
 
+
+    <ScrollView>
     <StackLayout>
-        <Image Margin="0,10,250,0" WidthRequest="20" HeightRequest="50" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/codershome_logo2.png?w=220;ssl=1"></Image>
-        <Image WidthRequest="200" HeightRequest="300" Source="https://www.codershome.net/wp-content/uploads/2021/06/laptop-2620118_1920.jpg"></Image>
-        <Button Text="Alışverişe Başla" BackgroundColor="Turquoise"></Button>
 
-        <Image WidthRequest="200" HeightRequest="100" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2018/12/lock-free-img.png?fit=120%2C120;ssl=1"></Image>
-        <Label Text="Güvenli Alışveriş" FontSize="16" Padding="150,0,30,0" FontAttributes="Bold" />
+        
+       
+        
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="10*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
 
-        <Image Margin="0,30,0,0" WidthRequest="200" HeightRequest="100" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/kargo.png?fit=225%2C225;ssl=1"></Image>
-        <Label Text="Hızlı Teslimat" FontSize="16" Padding="150,0,30,0" FontAttributes="Bold" />
+                <ImageButton Grid.Row="0" Grid.Column="0" 
+                             BackgroundColor="White" 
+                             Margin="20,4,0,0" 
+                             Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/codershome_logo2.png?w=220;ssl=1"
+                             HorizontalOptions="Start"
+                             HeightRequest="50"
+                             VerticalOptions="Start"></ImageButton>
 
-        <Image Margin="0,0,0,0" WidthRequest="200" HeightRequest="100" Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/kargo.png?fit=225%2C225;ssl=1"></Image>
-        <Label Text="Hızlı Teslimat" FontSize="16" Padding="150,0,30,0" FontAttributes="Bold" />
 
-        <Label FontSize="16" Padding="30,24,30,0">
+                <ImageButton Grid.Row="0" Grid.Column="2" 
+                             BackgroundColor="White" 
+                             Margin="10,10,0,10" 
+                             Source="https://mpng.subpng.com/20180604/pf/kisspng-computer-icons-avatar-user-profile-person-outline-5b15e897234927.5977552515281624551445.jpg"
+                             HeightRequest="20"
+                             HorizontalOptions="Start"
+                             VerticalOptions="Center"></ImageButton>
+
+                <ImageButton Grid.Row="0" Grid.Column="2" 
+                             BackgroundColor="Blue" 
+                             Margin="20,10,30,10" 
+                             Source="https://img.favpng.com/10/14/2/basket-icon-ecommerce-icon-shop-icon-png-favpng-MBAaQNjpciUT9UJG3jM0KetU0.jpg"
+                             HeightRequest="24"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center"></ImageButton>
+
+                <ImageButton Grid.Row="0" Grid.Column="2" 
+                             BackgroundColor="White" 
+                             Margin="0,20,20,0" 
+                             Source="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png"
+                             HeightRequest="16"
+                             HorizontalOptions="End"
+                             VerticalOptions="Start"></ImageButton>
+
+
+
+
+
+
+                <Image Grid.Row="1" Grid.ColumnSpan="3"
+           Source="https://www.codershome.net/wp-content/uploads/2021/06/laptop-2620118_1920.jpg"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand" 
+                   HeightRequest="250"
+           Aspect="Fill" />
+
+                <Label Grid.Row="1" Grid.ColumnSpan="3"
+           Text="Yazılımcılara Özel Tasarlanmış Ürünler" 
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Start"
+           TextColor="White" 
+                   Margin="0,30,0,0"
+           FontSize="30"/>
+
+                <Label Grid.Row="1" Grid.ColumnSpan="3"
+           Text="100 TL ve Üzeri Ücretsiz Kargo Avantajıyla İndirimli Fiyatları Yakala!" 
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           TextColor="White" 
+           FontSize="12"/>
+
+                <Button Grid.Row="1" Grid.ColumnSpan="3"
+           Text="Alışverişe Başla" 
+           TextColor="White" 
+           BackgroundColor="#FF295564"
+           HorizontalOptions="Start"
+           VerticalOptions="End"
+                    Margin="30,30,0,30"
+                    HeightRequest="30"
+           FontSize="8"/>
+
+                <Button Grid.Row="1" Grid.ColumnSpan="3"
+           Text="Daha Fazla Bilgi" 
+           TextColor="White" 
+           BackgroundColor="#FF295564"
+           HorizontalOptions="End"
+           VerticalOptions="End"
+                    Margin="0,30,170,30"
+                    Opacity="0.7"
+                    HeightRequest="30"
+           FontSize="8"/>
+
+
+                <Image Grid.Row="2" Grid.ColumnSpan="3"
+                       WidthRequest="200" 
+                       HeightRequest="100" 
+                       Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2018/12/lock-free-img.png?fit=120%2C120;ssl=1"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       Margin="0,30,0,0"></Image>
+                <Label Grid.Row="2" Grid.ColumnSpan="3" 
+                       Text="Güvenli Alışveriş" 
+                       FontSize="16" 
+                       Padding="0,0,0,70" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"/>
+                <Label Grid.Row="2" Grid.ColumnSpan="3"
+                       Text="Ödemelerinizi Shopier altyapısı ile ve isterseniz taksitli yapın, güvenli alışverişin tadını çıkarın." 
+                       FontSize="16" 
+                       Padding="0,0,0,0" 
+                       HorizontalTextAlignment="Center" 
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+
+                <Image Grid.Row="3" Grid.ColumnSpan="3"
+                       Margin="0,30,0,0" 
+                       WidthRequest="200" 
+                       HeightRequest="100" 
+                       Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/kargo.png?fit=225%2C225;ssl=1"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"></Image>
+                <Label Grid.Row="3" Grid.ColumnSpan="3"
+                       Text="Hızlı Teslimat" 
+                       FontSize="16" 
+                       Padding="0,0,0,70" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"/>
+                <Label Grid.Row="3" Grid.ColumnSpan="3"
+                       Text="100 TL ve üzeri alışverişlerinizde Kargo Bedava. Hızlı kargo ile siparişlerinizi en kısa sürede ulaştırıyoruz." 
+                       FontSize="16" 
+                       Padding="0,0,0,0" 
+                       HorizontalTextAlignment="Center" 
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+
+                <Image Grid.Row="4" Grid.ColumnSpan="3"
+                       Margin="0,30,0,0" 
+                       WidthRequest="200" 
+                       HeightRequest="100" 
+                       Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2018/12/tag-free-img.png?w=120;ssl=1"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"></Image>
+                <Label Grid.Row="4" Grid.ColumnSpan="3"
+                       Text="Uygun Fiyat" 
+                       FontSize="16" 
+                       Padding="0,0,0,70" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"/>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" 
+                       Text="Yüksek kaliteli ürünleri kendi tasarımlarımızla üretiyoruz. Uygun fiyatlar ile sizlere sunuyoruz." 
+                       FontSize="16" 
+                       Padding="0,0,0,0" 
+                       HorizontalTextAlignment="Center" 
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+
+                <Image Grid.Row="5" Grid.ColumnSpan="3" 
+                       Margin="0,30,0,0" 
+                       WidthRequest="200" 
+                       HeightRequest="100" 
+                       Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/kisisellestirilmisurun.png?w=200;ssl=1"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"></Image>
+                <Label Grid.Row="5" Grid.ColumnSpan="3"
+                       Text="Kişiselleştirme İmkanı" 
+                       FontSize="16" 
+                       Padding="0,0,0,70" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"/>
+                <Label Grid.Row="5" Grid.ColumnSpan="3"
+                       Text="Ürünlere isim yazdırabilir veya aklınızdaki tasarımı ürüne çevirebilirsiniz." 
+                       FontSize="16" 
+                       Padding="0,0,0,0" 
+                       HorizontalTextAlignment="Center" 
+                       HorizontalOptions="End"
+                       VerticalOptions="End"/>
+
+
+
+
+
+
+                <Image Grid.Row="6" Grid.ColumnSpan="3"
+                Margin="0,20,0,0" 
+                Source="https://www.codershome.net/wp-content/uploads/2021/09/IMG_4122-min-scaled.jpg"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" 
+                HeightRequest="50"
+                Aspect="Fill" />
+
+                <Button Grid.Row="6" Grid.ColumnSpan="3"
+                Text="İncele" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="15,0,0,15"
+                HeightRequest="30"
+                FontSize="8"/>
+
+                <Label Grid.Row="6" Grid.ColumnSpan="3"
+                Text="Rozetler" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                TextColor="White" 
+                Margin="30,80,0,80"
+                FontAttributes="Bold"
+                FontSize="20"/>
+
+                <Label Grid.Row="6" Grid.ColumnSpan="3"
+                Text="İğneli buton rozetlerimiz sınırlı sayıda stoklarda…" 
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                TextColor="White" 
+                Margin="30,70,0,0"
+                FontAttributes="Bold"
+                FontSize="12"/>
+
+
+
+
+
+
+
+                <Image Grid.Row="7" Grid.ColumnSpan="3"
+                Margin="0,20,0,0" 
+                Source="https://www.codershome.net/wp-content/uploads/2021/09/IMG_4101-min-scaled.jpg"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" 
+                HeightRequest="50"
+                Aspect="Fill" />
+
+                <Button Grid.Row="7" Grid.ColumnSpan="3"
+                Text="İncele" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="15,0,0,15"
+                HeightRequest="30"
+                FontSize="8"/>
+
+                <Label Grid.Row="7" Grid.ColumnSpan="3"
+                Text="Memopadler" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                TextColor="White" 
+                Margin="30,80,0,80"
+                FontAttributes="Bold"
+                FontSize="20"/>
+
+                <Label Grid.Row="7" Grid.ColumnSpan="3"
+                Text="Haftalık planlayıcı ve to do list not defterleri sınırlı sayıda stoklarda…" 
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                TextColor="White" 
+                Margin="30,70,0,0"
+                FontAttributes="Bold"
+                FontSize="12"/>
+
+
+
+
+
+
+
+
+                <Image Grid.Row="8" Grid.ColumnSpan="3"
+                Margin="0,20,0,0" 
+                Source="https://www.codershome.net/wp-content/uploads/2021/09/dark-mode-min.jpg"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" 
+                HeightRequest="50"
+                Aspect="Fill" />
+
+                <Button Grid.Row="8" Grid.ColumnSpan="3"
+                Text="İncele" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="15,0,0,15"
+                HeightRequest="30"
+                FontSize="8"/>
+
+                <Label Grid.Row="8" Grid.ColumnSpan="3"
+                Text="Siyah Defterler" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                TextColor="White" 
+                Margin="30,80,0,80"
+                FontAttributes="Bold"
+                FontSize="20"/>
+
+                <Label Grid.Row="8" Grid.ColumnSpan="3"
+                Text="Dark Mode aktifleştirildi. Siyah defterler şimdi stoklarda…" 
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center"
+                TextColor="White" 
+                Margin="30,70,0,0"
+                FontAttributes="Bold"
+                FontSize="12"/>
+
+
+
+                <Label Grid.Row="9" Grid.ColumnSpan="3"
+                Text="Vitrindekiler" 
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                TextColor="Black" 
+                FontSize="30"/>
+
+                <Label Grid.Row="9" Grid.ColumnSpan="3"
+                Text="_________" 
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="End"
+                TextColor="Black" 
+                Margin="0,0,0,50"
+                FontSize="30"/>
+
+
+
+
+                <Image Grid.Row="10" Grid.Column="0"
+                Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2022/03/wordpress1-min.jpg?fit=1600%2C1200;ssl=1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" 
+                HeightRequest="120"
+                Margin="10,0,0,0" />
+
+                <Image Grid.Row="10" Grid.Column="1"
+                Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2022/03/lua-1-min.jpg?fit=1600%2C1200;ssl=1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" 
+                HeightRequest="120"
+                Margin="5,0,5,0" />
+
+                <Image Grid.Row="10" Grid.Column="2"
+                Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2022/03/pardus-1-min.jpg?fit=1600%2C1200;ssl=1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" 
+                HeightRequest="120"
+                Margin="0,0,10,0" />
+
+                <Label Grid.Row="10" Grid.Column="0"
+                Text="WordPres Temalı Yazılımcı Kupası" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,130,0,0"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="10" Grid.Column="0"
+                Text="Kupa Bardak" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,160,0,0"
+                FontSize="10"/>
+
+                <Label Grid.Row="10" Grid.Column="0"
+                Text="42.95₺" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,180,0,0"
+                FontSize="10"/>
+
+                <Button Grid.Row="10" Grid.Column="0"
+                Text="Sepete Ekle" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="10,0,0,10"
+                HeightRequest="30"
+                FontSize="8"/>
+
+
+                <Label Grid.Row="10" Grid.Column="1"
+                Text="Lua Temalı Yazılımcı Kupası" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,130,0,0"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="10" Grid.Column="1"
+                Text="Kupa Bardak" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,160,0,0"
+                FontSize="10"/>
+
+                <Label Grid.Row="10" Grid.Column="1"
+                Text="42.95₺" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,180,0,0"
+                FontSize="10"/>
+
+                <Button Grid.Row="10" Grid.Column="1"
+                Text="Sepete Ekle" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="10,0,0,10"
+                HeightRequest="30"
+                FontSize="8"/>
+
+
+
+
+
+
+
+
+                <Label Grid.Row="10" Grid.Column="2"
+                Text="Pardus Temalı Yazılımcı Kupası" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,130,0,0"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="10" Grid.Column="2"
+                Text="Kupa Bardak" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,160,0,0"
+                FontSize="10"/>
+
+                <Label Grid.Row="10" Grid.Column="2"
+                Text="42.95₺" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,180,0,0"
+                FontSize="10"/>
+
+                <Button Grid.Row="10" Grid.Column="2"
+                Text="Sepete Ekle" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="10,0,0,10"
+                HeightRequest="30"
+                FontSize="8"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <Image Grid.Row="11" Grid.Column="0"
+                Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/09/IMG_4120-min-scaled.jpg?fit=2560%2C2560;ssl=1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" 
+                HeightRequest="120"
+                Margin="10,0,0,0" />
+
+                <Image Grid.Row="11" Grid.Column="1"
+                Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/09/dont-disturb-min.jpg?fit=1200%2C1200;ssl=1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" 
+                HeightRequest="120"
+                Margin="5,0,5,0" />
+
+                <Image Grid.Row="11" Grid.Column="2"
+                Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/09/anti-coding-min.jpg?fit=1200%2C1200;ssl=1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start" 
+                HeightRequest="120"
+                Margin="0,0,10,0" />
+
+                <Label Grid.Row="11" Grid.Column="0"
+                Text="Flutter Temalı Yazılımcı İğneli Rozet" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,130,0,0"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="11" Grid.Column="0"
+                Text="Rozet" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,160,0,0"
+                FontSize="10"/>
+
+                <Label Grid.Row="11" Grid.Column="0"
+                Text="7.50₺" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,180,0,0"
+                FontSize="10"/>
+
+                <Button Grid.Row="11" Grid.Column="0"
+                Text="Sepete Ekle" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="10,0,0,10"
+                HeightRequest="30"
+                FontSize="8"/>
+
+
+                <Label Grid.Row="11" Grid.Column="1"
+                Text="Don't Disturb Karton Kapaklı Yazılımcı Siyah Defter" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,130,0,0"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="11" Grid.Column="1"
+                Text="Defter" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,160,0,0"
+                FontSize="10"/>
+
+                <Label Grid.Row="11" Grid.Column="1"
+                Text="54.95₺" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,180,0,0"
+                FontSize="10"/>
+
+                <Button Grid.Row="11" Grid.Column="1"
+                Text="Sepete Ekle" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="10,0,0,10"
+                HeightRequest="30"
+                FontSize="8"/>
+
+
+
+
+
+
+
+
+                <Label Grid.Row="11" Grid.Column="2"
+                Text="Anti Coding Coding Club Yazılımcı Siyah Defter" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,130,0,0"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="11" Grid.Column="2"
+                Text="Defter" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,160,0,0"
+                FontSize="10"/>
+
+                <Label Grid.Row="11" Grid.Column="2"
+                Text="54.95₺" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="Black" 
+                Margin="10,180,0,0"
+                FontSize="10"/>
+
+                <Button Grid.Row="11" Grid.Column="2"
+                Text="Sepete Ekle" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="10,0,0,10"
+                HeightRequest="30"
+                FontSize="8"/>
+
+
+                <Label Grid.Row="12" Grid.ColumnSpan="3"
+                BackgroundColor="red"
+                Margin="0,20,0,0"/>
+                <Label Grid.Row="13" Grid.ColumnSpan="3"
+                BackgroundColor="red"
+                Margin="0,0,0,0"/>
+
+                <Button Grid.Row="12" Grid.Column="0"
+                Text="Üyel Ol/Giriş Yap" 
+                TextColor="White" 
+                BackgroundColor="#FF295564"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="20,0,0,40"
+                HeightRequest="35"
+                FontAttributes="Bold"
+                FontSize="10"/>
+
+                <Label Grid.Row="12" Grid.ColumnSpan="3"
+                Text="İlk Alışverişe Özel" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="White" 
+                Margin="20,50,0,0"
+                       FontAttributes="Bold"
+                FontSize="14"/>
             
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        
-                        
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+                <Label Grid.Row="12" Grid.ColumnSpan="3"
+                Text="10 TL HEDİYE!" 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="White" 
+                Margin="20,80,0,0"
+                       FontAttributes="Bold"
+                FontSize="20"/>
+
+                <Label Grid.Row="12" Grid.ColumnSpan="3"
+                Text="100 TL ve üzeri alışverişinize 10 TL indirim. Üye olduktan sonra size mail ile gönderilen kupon kodunu kullanarak kampanyadan faydalanabilirsiniz." 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                TextColor="White" 
+                Margin="20,130,20,0"
+                       FontAttributes="Bold"
+                FontSize="14"/>
+
+                <Image Grid.Row="13" Grid.ColumnSpan="3"
+           Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/A.png?w=864;ssl=1"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand" 
+                   HeightRequest="250"
+                       BackgroundColor="red"
+                       Margin="10,0,10,20"
+           Aspect="Fill" />
+
+            
+            
+            
+            
+                <Label Grid.Row="14" Grid.ColumnSpan="3"
+                BackgroundColor="DarkOliveGreen"
+                Text="Bizi Takip Etmeyi Unutmayın!"   
+                       FontAttributes="Bold"
+                       TextColor="White"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Center" 
+                       Padding="15,0,0,0"
+                Margin="0,0,0,0"/>
+
+
+                <Image Grid.Row="14" Grid.Column="1"
+           Source="https://www.codershome.net/wp-content/uploads/2021/06/instagram_icon.png"  
+                      HorizontalOptions="End"
+                VerticalOptions="Center"
+                       Margin="0,0,0,0"/>
+
+                <Image Grid.Row="14" Grid.Column="2"
+           Source="https://www.codershome.net/wp-content/uploads/2021/06/facebook_icon.png"  
+                      HorizontalOptions="Start"
+                VerticalOptions="Center"
+                       Margin="0,0,0,0"/>
+            
+                <Image Grid.Row="14" Grid.Column="2"
+           Source="https://www.codershome.net/wp-content/uploads/2021/06/linkedin_con.png"  
+                      HorizontalOptions="Center"
+                VerticalOptions="Center"
+                       Margin="0,0,0,0"/>
+            
+            
+            
+            
+            </Grid>
+
+
+
+
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
+    
