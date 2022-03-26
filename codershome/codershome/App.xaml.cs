@@ -10,7 +10,9 @@ namespace codershome
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            //LoginPage = new LoginPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
