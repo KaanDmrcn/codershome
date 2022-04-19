@@ -16,5 +16,11 @@ namespace codershome
         {
             InitializeComponent();
         }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            var mainPage = new MainPage();
+            Application.Current.MainPage.Navigation.PushAsync(mainPage);
+        }
     }
 }

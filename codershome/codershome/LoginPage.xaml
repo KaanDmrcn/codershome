@@ -18,7 +18,7 @@
 
 
 
-                    <ImageButton Grid.Row="0" Grid.Column="0" 
+                    <ImageButton Clicked="ImageButton_Clicked" Grid.Row="0" Grid.Column="0" 
                              BackgroundColor="White" 
                              Margin="20,4,0,0" 
                              Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/codershome_logo2.png?w=220;ssl=1"
@@ -211,7 +211,7 @@
 
 
                     <Label Grid.Row="4" Grid.ColumnSpan="3"
-                BackgroundColor="DarkOliveGreen"
+                BackgroundColor="#082629"
                 Text="Bizi Takip Etmeyi Unutmayın!"   
                        FontAttributes="Bold"
                        TextColor="White"

@@ -14,5 +14,17 @@ namespace codershome
         {
             InitializeComponent();
         }
+
+        private void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            var loginPage = new LoginPage();
+            Application.Current.MainPage.Navigation.PushAsync(loginPage);
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            var productsPage = new ProductsPage();
+            Application.Current.MainPage.Navigation.PushAsync(productsPage);
+        }
     }
 }

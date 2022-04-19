@@ -12,7 +12,8 @@ namespace codershome
 
             //MainPage = new MainPage();
             //LoginPage = new LoginPage();
-            MainPage = new LoginPage();
+            //MainPage = new LoginPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

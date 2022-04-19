@@ -44,7 +44,7 @@
                              VerticalOptions="Start"></ImageButton>
 
 
-                <ImageButton Grid.Row="0" Grid.Column="2" 
+                <ImageButton Clicked="ImageButton_Clicked" Grid.Row="0" Grid.Column="2" 
                              BackgroundColor="White" 
                              Margin="10,10,0,10" 
                              Source="https://mpng.subpng.com/20180604/pf/kisspng-computer-icons-avatar-user-profile-person-outline-5b15e897234927.5977552515281624551445.jpg"
@@ -97,7 +97,7 @@
            TextColor="White" 
            FontSize="12"/>
 
-                <Button Grid.Row="1" Grid.ColumnSpan="3"
+                <Button Clicked="Button_Clicked" Grid.Row="1" Grid.ColumnSpan="3"
            Text="Alışverişe Başla" 
            TextColor="White" 
            BackgroundColor="#FF295564"
@@ -761,7 +761,7 @@
             
             
                 <Label Grid.Row="14" Grid.ColumnSpan="3"
-                BackgroundColor="DarkOliveGreen"
+                BackgroundColor="#082629"
                 Text="Bizi Takip Etmeyi Unutmayın!"   
                        FontAttributes="Bold"
                        TextColor="White"
