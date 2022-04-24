@@ -26,5 +26,11 @@ namespace codershome
             var productsPage = new ProductsPage();
             Application.Current.MainPage.Navigation.PushAsync(productsPage);
         }
+
+        private void ImageButton_Clicked_1(object sender, EventArgs e)
+        {
+            var boxPage = new BoxPage();
+            Application.Current.MainPage.Navigation.PushAsync(boxPage);
+        }
     }
 }
