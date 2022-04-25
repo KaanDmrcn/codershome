@@ -60,7 +60,7 @@
                              HorizontalOptions="Center"
                              VerticalOptions="Center"></ImageButton>
 
-                <ImageButton Grid.Row="0" Grid.Column="2" 
+                <ImageButton Clicked="ImageButton_Clicked_2" Grid.Row="0" Grid.Column="2" 
                              BackgroundColor="White" 
                              Margin="0,20,20,0" 
                              Source="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png"

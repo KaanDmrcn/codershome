@@ -8,7 +8,43 @@
             
         <StackLayout>
 
-            
+            <Grid>
+
+                <ImageButton Clicked="MainPage" Grid.Row="0" Grid.Column="0" 
+                             BackgroundColor="White" 
+                             Margin="20,4,0,0" 
+                             Source="https://i0.wp.com/www.codershome.net/wp-content/uploads/2021/06/codershome_logo2.png?w=220;ssl=1"
+                             HorizontalOptions="Start"
+                             HeightRequest="50"
+                             VerticalOptions="Start"></ImageButton>
+
+
+                <ImageButton Clicked="ImageButton_Clicked" Grid.Row="0" Grid.Column="2" 
+                             BackgroundColor="White" 
+                             Margin="10,10,0,10" 
+                             Source="https://mpng.subpng.com/20180604/pf/kisspng-computer-icons-avatar-user-profile-person-outline-5b15e897234927.5977552515281624551445.jpg"
+                             HeightRequest="20"
+                             HorizontalOptions="Start"
+                             VerticalOptions="Center"></ImageButton>
+
+                <ImageButton Clicked="ImageButton_Clicked_1" Grid.Row="0" Grid.Column="2" 
+                             BackgroundColor="Blue" 
+                             Margin="20,10,30,10" 
+                             Source="https://img.favpng.com/10/14/2/basket-icon-ecommerce-icon-shop-icon-png-favpng-MBAaQNjpciUT9UJG3jM0KetU0.jpg"
+                             HeightRequest="24"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center"></ImageButton>
+
+                <ImageButton Clicked="ImageButton_Clicked_2" Grid.Row="0" Grid.Column="2" 
+                             BackgroundColor="White" 
+                             Margin="0,20,20,0" 
+                             Source="https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-24.png"
+                             HeightRequest="16"
+                             HorizontalOptions="End"
+                             VerticalOptions="Start"></ImageButton>
+
+            </Grid>
+
 
             <Label Margin="10,0,0,0" Text="Anasayfa/Kupa Bardak" VerticalOptions="Start" HorizontalOptions="Start" FontSize="13" TextColor="Gray" />
                 <Label Margin="10,0,0,0" Text="Kupa Bardak" VerticalOptions="Start" HorizontalOptions="Start" FontSize="22" TextColor="Black" />
